@@ -3,8 +3,16 @@
 ---
 
 # Polycade Engineering Node.js REST API Challenge
+## Instructions to run the application
 
-Our apps need to query and store lots of information. We want to make sure that you have a good understanding of JavaScript and Node.js fundamentals. Can you build a simple API that can read data from and write data to a PostgreSQL database with Node.js?
+How to run this application:
+
+1) Clone this repo
+2) run ```npm install```
+3) Provide postgresql connection string in `.env` file inside `DB_CONNECTION` variable.
+4) ```npm run start``` to start the server.
+5) ```npm run tape``` to run the tests.
+
 
 ## The Challenge
 
@@ -46,14 +54,4 @@ Build a REST API that will allow Polycade to manage pricing individually on mach
 - Tests
   - Each endpoint should have its own test
 
-## Instructions
 
-How to attempt this challenge:
-
-1) Create a new repo in your account and note the git url
-2) Clone this repo
-3) Solve the challenge
-4) Set your new repo as the origin: `git remote set-url origin ${your repo url}`
-5) Push your solution to your repo
-
-You must follow these steps for your solution to be accepted -- forks or other methods will not be considered.
